@@ -11,7 +11,7 @@ $pdo = $connexion->seConnecter("../config/workshop.ini");
 
 
 
-echo"<hr>Test Fonction SelectAllCampus <hr>";
+echo"<hr>Test Fonction SelectAllCursus <hr>";
  $content = "";
  $lines = selectAllCursus($pdo);
  $jsonData = json_encode($lines);
