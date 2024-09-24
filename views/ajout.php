@@ -23,9 +23,9 @@
                     ><br>
                     <div class="form-group-row">
                         <div class="group-label">
-                            <label for="user_anniv"> Age :</label>
+                            <label for="talent_age"> Age :</label>
                         </div class="group-input">
-                            <input type="number" id="user_age" name="user_age" value="" required />
+                            <input type="number" id="talent_age" name="talent_age" value="" required />
                         </div>
                     </div>
                     <br>
@@ -44,7 +44,7 @@
                 <br>
                         </div>
                         <div class="group-input">
-                            <input type="file" id="user_Image" name="user_Image" value="" required /> 
+                            <input type="file" id="talent_Image" name="talent_Image" value="" required /> 
                 <br>
                 <br>       
                     <label for="genre">Genre :</label>
