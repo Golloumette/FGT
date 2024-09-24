@@ -12,10 +12,12 @@
         <br>
         <input type="number" id="talent_age" name="talent_age" value="" required />                
         <br>
-        <br>           
+        <br>  
         <label for="user_talent"> Talent :</label>
-        <br>                 
-        <input type="text" required minlength="15" size="100%" value="" required />
+        <br>
+        <div class="texte_ajout">                   
+        <input type="text" required minlength="15"  value="" required />
+        </div>
         <br>
         <br>          
         <label for="user_prenom"> Image :</label>
