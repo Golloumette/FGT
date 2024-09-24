@@ -27,7 +27,7 @@
                             <label for="user_talent"> Talent :</label>
                         </div>
                         <div class="group-input">
-                            <input type="text" required minlength="15" size="200" value="" required />
+                            <input type="text" required minlength="15" size="auto" value="" required />
                     <br>
                      <br>
                     <div class="form-group-row">
