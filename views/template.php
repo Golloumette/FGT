@@ -13,22 +13,22 @@
 
 <body>
   <header class="image-container">
-    <img class="image-epsi" src="../Images/EPSI.png" />
+    <img class="image-epsi" src="../Images/epsibleu.png" />
     <img class="image-fartadet " src="../Images/BDE.png" />
-    <img class="image-wis " src="../Images/WIS.png" />
+    <img class="image-wis " src="../Images/wisbleu.png" />
   </header>
 
   <section class="navigation">
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-static-top">
       <div class="container-fluid">
-        <a class="navbar-brand activeMenu tab active-tab" href="accueil.php">Accueil</a>
+        <a class="navbar-brand activeMenu tab active-tab" href="../views/accueil.php">Accueil</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./ajout.php">ajout</a></li>
+            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="../views/ajout.php">ajout</a></li>
             <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./polyculture.html">btn2</a></li>
             <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./pensions.html">btn3</a></li>
           </ul>
@@ -40,7 +40,6 @@
   </section>
 
   <?= $content ?>
-
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

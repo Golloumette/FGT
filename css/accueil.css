@@ -1,49 +1,58 @@
 header {
-    display: flex;
-    justify-content: center;
-    background-color: #02113A;
-  }
+  display: flex;
+  justify-content: center;
+  background-color: #02113A;
+}
+
+.image-fartadet {
+  width: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.image-epsi {
+  margin-top: 50px;
+  width : 150px;
+  height : 100px;
+}
+
+.image-wis {
+  margin-top: 50px;
+  width : 150px;
+  height : 100px;
+}
+
+.photo_profil{
+  float : right;
+  width : 25%;
+  height : 25%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.description{
+  margin-top: 2%;
+  margin-left: 10%;
+
+}
+
+.ajout{
+  margin-top:30px ;
+  margin-left: 50px;
+}
+
+.texte_ajout{
+  line-height: 1000%;
   
-  .image-fartadet {
-    width: 200px;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
+  
+}
 
-  .image-epsi {
-    margin-top: 50px;
-    width : 150px;
-    height : 100px;
-  }
+.test{
+  float : right;
+  margin-right: 40%;
+}
 
-  .image-wis {
-    margin-top: 50px;
-    width : 150px;
-    height : 100px;
-  }
+.espace{
+  margin-bottom: 30px;
+}
 
-  .photo_profil{
-    float : right;
-    width : 25%;
-    height : 25%;
-    margin-left: 12%;
-
-margin-right: 12%;
-  }
- 
-  .description{
-    margin-top: 2%;
-    margin-left: 10%;
-
-  }
-
-  .ajout{
-    margin-top:30px ;
-    margin-left: 50px;
-  }
-
-  .texte_ajout{
-
-    line-height: 1000%;
-    ;
-  }
