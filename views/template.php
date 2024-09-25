@@ -3,7 +3,7 @@
 <html lang="fr">
 
 <head>
-  <title>Les farfadet on du talent</title>
+  <title>Les farfadet ont du talent</title>
   <link rel="icon" href="/Images/BDE.png">
   <link href="../css/accueil.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,7 +18,7 @@
     <img class="image-wis " src="../Images/WIS.png" />
   </header>
 
-  <section class = "navigation">
+  <section class="navigation">
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-static-top">
       <div class="container-fluid">
         <a class="navbar-brand activeMenu tab active-tab" href="accueil.php">Accueil</a>
