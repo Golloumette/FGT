@@ -28,7 +28,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./propos.html">btn1</a></li>
+            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./ajout.php">ajout</a></li>
             <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./polyculture.html">btn2</a></li>
             <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./pensions.html">btn3</a></li>
           </ul>
