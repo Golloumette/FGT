@@ -4,13 +4,11 @@
     <img class="photo_profil" src="../Images/BDE.png" />
     <div class="description">
  
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta velit a sodales vestibulum. Vestibulum
-        interdum, massa in sodales auctor, lorem nibh feugiat ante, ut placerat ante ex non ipsum. Nulla non scelerisque
-        purus, id rutrum ipsum. Proin eu ex elementum, vulputate orci id, gravida tortor. Maecenas congue blandit
-        interdum. Suspendisse eget enim eu est finibus tempus. Donec dignissim in lectus eget pretium. Morbi interdum
-        aliquet magna, in ultrices quam facilisis et. Sed elementum vitae lectus vitae porta. Praesent ut ex viverra dui
-        tempus volutpat et nec lectus. In ut ipsum porttitor, aliquet lectus in, placerat leo. Morbi lobortis ultricies
-        leo non semper.</p>
+      <p>Ce site a pour objectif de mettre en avant nos différents profils et leurs divers talents. Tout au long de l'année à venir, 
+        nous afficherons une sélection de ces profils à travers des interviews. Notre but est de valoriser les talents de chacun,
+         en présentant pour chaque profil une photo, son prénom, son âge, son cursus actuel,
+          ainsi que l'école et le campus auxquels il est rattaché. Nous fournirons également une description unique pour chaque talent.
+      </p>
     </div>
 
   </section>

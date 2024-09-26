@@ -3,7 +3,7 @@
 <html lang="fr">
 
 <head>
-  <title>Les farfadet ont du talent</title>
+  <title>Les farfadets ont du talent</title>
   <link rel="icon" href="/Images/BDE.png">
   <link href="../css/accueil.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,7 +28,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="../views/ajout.php">ajout</a></li>
+
+            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="../views/ajout.php">Nouveau talent</a></li>
+
           </ul>
           <button type="button" class="btn " id="idBtnS"><a class="idBtn" href="./identifier.html">
               S'identifier</a></button>
