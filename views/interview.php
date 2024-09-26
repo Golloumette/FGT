@@ -7,13 +7,12 @@ include '../controllers/interviewCTRL.php'
 <head>
     <meta charset="UTF-8">
     <title>Interview</title>
-    <link href="../css/interview.css" rel="stylesheet" />  
-    <script src="../js/interview.js" defer></script>
+    <link href="../css/interview.css" rel="stylesheet" />
 </head>
 
 <body>
 
-     <div class="corps">
+
     <div class="gauche">
        <img id="photo" src="" height="150px" alt="Portrait de l'étudiant">
 
@@ -58,3 +57,4 @@ include '../controllers/interviewCTRL.php'
 console.log(listStudent)</script>
 </body>
 </html>
+
