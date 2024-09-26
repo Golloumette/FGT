@@ -1,34 +1,37 @@
-img{
-    height : 350px;
+img {
+    height: 350px;
     margin-bottom: 8%;
     display: flex;
 }
 
-.gauche{
-    
+.gauche {
+
     margin-left: 8%;
     margin-right: 8%;
-    float : left;
+    float: left;
 
 }
 
-.droite{
+.droites {
     margin-top: 100px;
-    display: flex; /* contexte sur le parent */
-    flex-direction: column; /* direction d'affichage verticale */
-    justify-content: center; /* alignement vertical */
+    display: flex;
+    /* contexte sur le parent */
+    flex-direction: column;
+    /* direction d'affichage verticale */
+    justify-content: center;
+    /* alignement vertical */
     margin-right: 5%;
 }
 
-p{
+p {
     font-size: 25px;
 }
 
-label{
+label {
     font-size: 25px;
 }
 
-body{
-background-color: #03224c;
-color: white;
+body {
+    background-color: #03224c;
+    color: white;
 }

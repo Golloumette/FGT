@@ -45,7 +45,7 @@ include '../controllers/interviewCTRL.php'
     </div>
 
 
-    <div class="droite" style="display: flex; gap: 10px; align-items: center; ">
+    <div class="droites" style="display: flex; gap: 10px; align-items: center; ">
         <label for="user_age">Talent :</label>
         <p style="margin: 0;"><?php echo $listStudent[0]['talent']; ?></p>
     </div>
