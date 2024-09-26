@@ -10,4 +10,3 @@ $pdo = $connexion->seConnecter("../config/workshop.ini");
 $listStudent = lastInsert($pdo);
 // Encodage de la liste en JSON
 $jsonData = json_encode($listStudent);
-
