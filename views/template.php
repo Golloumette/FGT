@@ -29,10 +29,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="../views/ajout.php">ajout</a></li>
-            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./polyculture.html">btn2</a></li>
-            <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="./pensions.html">btn3</a></li>
           </ul>
-          <button type="button" class="btn btn-success tab" id="idBtnS"><a class="idBtn" href="./identifier.html">
+          <button type="button" class="btn " id="idBtnS"><a class="idBtn" href="./identifier.html">
               S'identifier</a></button>
         </div>
       </div>

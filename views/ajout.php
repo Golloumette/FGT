@@ -10,7 +10,7 @@ include '../controllers/listeCTRL.php'; ?>
         <form method="post" action="../controllers/insertInterviewCTRL.php" enctype="multipart/form-data">
 
             <div class="test">
-                <label for="user_talent"> Talent :</label>
+                <label for="user_talent"> Talent :</label><br>
                 <textarea name="user_talent" value="pro du sport" required name="textarea" rows="10"
                     cols="50">Vous pouvez écrire ici.</textarea><br>
 
