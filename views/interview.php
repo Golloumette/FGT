@@ -7,12 +7,10 @@ include '../controllers/interviewCTRL.php'
 <head>
     <meta charset="UTF-8">
     <title>Interview</title>
-    <link href="../css/interview.css" rel="stylesheet" />  
-    <script src="../js/interview.js" defer></script>
+    <link href="../css/interview.css" rel="stylesheet" />
 </head>
 
 <body>
-
 
     <div class="gauche">
        <img id="photo" src="" height="150px" alt="Portrait de l'étudiant">
@@ -49,8 +47,8 @@ include '../controllers/interviewCTRL.php'
     <p style="margin: 0;" id="talent"></p>
     </div>
 
-
 <script> const listStudent = <?php echo $jsonData ?>;
 console.log(listStudent)</script>
 </body>
 </html>
+
