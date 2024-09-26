@@ -13,7 +13,7 @@ include '../controllers/interviewCTRL.php'
 
 <body>
 
-
+     <div class="corps">
     <div class="gauche">
        <img id="photo" src="" height="150px" alt="Portrait de l'étudiant">
 
@@ -47,8 +47,12 @@ include '../controllers/interviewCTRL.php'
     <div class="droites" style="display: flex; gap: 10px; align-items: center; ">
          <label for="talent">Talent :</label>
     <p style="margin: 0;" id="talent"></p>
+   
     </div>
-
+     <div class="img_Farfadet">
+     <img class="image-fartadet " src="../Images/BDE.png" />
+     </div>
+    </div>
 
 <script> const listStudent = <?php echo $jsonData ?>;
 console.log(listStudent)</script>

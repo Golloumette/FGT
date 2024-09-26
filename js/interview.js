@@ -9,20 +9,18 @@ function updateStudentInfo() {
     const campusElement = document.getElementById('ville_campus');
     const photoElement = document.getElementById('photo');
 
-   // if (listStudent && listStudent.length > 0) {
+    if (listStudent && listStudent.length > 0) {
         prenomElement.textContent = listStudent[currentIndex]['prenom'];
         ageElement.textContent = listStudent[currentIndex]['age'];
         talentElement.textContent = listStudent[currentIndex]['talent'];
         cursusElement.textContent = listStudent[currentIndex]['nom_cursus'];
         ecoleElement.textContent = listStudent[currentIndex]['nom'];
         campusElement.textContent = listStudent[currentIndex]['ville_campus'];
-        photoElement.src = "../images/portrait/" + listStudent[currentIndex]['photo'];
-
-      if (currentIndex== listStudent.lenght){
-        currentIndex == 0;
+        photoElement.src = "../images/portrait/" + listStudent[currentIndex]['photo'];   
+        currentIndex = (currentIndex + 1) % listStudent.length;
       } else {
-        currentIndex = (currentIndex + 1) ;
-        }
+        console.error("Aucune donnée disponible");
+    }
 }
 
 

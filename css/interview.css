@@ -1,7 +1,9 @@
 img {
+    margin-top: 5%;
     height: 350px;
     margin-bottom: 8%;
     display: flex;
+    border: solid
 }
 
 .gauche {
@@ -21,6 +23,7 @@ img {
     justify-content: center;
     /* alignement vertical */
     margin-right: 5%;
+    margin-bottom:10% ;
 }
 
 p {
@@ -32,6 +35,24 @@ label {
 }
 
 body {
-    background-color: #03224c;
+    background-color:#4c40c5;
     color: white;
+    height: 100%;
+}
+.corps{
+    margin-top:  2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right:2% ;
+    background-color: #03224c;
+    height: 100%;
+    display: flex;
+}
+.img_Farfadet{
+    margin-right: 5%;
+    display: flex;
+    flex-direction:column ;
+    align-content: end;
+    justify-content: flex-end;
+
 }
