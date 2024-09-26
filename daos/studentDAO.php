@@ -22,7 +22,7 @@ class StudentDAO
         $affected = 0;
         try {
             $cmd = $this->pdo->prepare("INSERT INTO studenttalent(prenom,age,ecole_ID,cursus_ID,campus_ID,date_Interview,photo,talent) VALUES(?,?,?,?,?,?,?,?)");
-            var_dump($student->getPrenom(), $student->getAge(), $student->getEcoleID(), $student->getCursusID(), $student->getCampusID(), $student->getDateInterview(), $student->getPhoto(), $student->getTalent());
+            //var_dump($student->getPrenom(), $student->getAge(), $student->getEcoleID(), $student->getCursusID(), $student->getCampusID(), $student->getDateInterview(), $student->getPhoto(), $student->getTalent());
             $cmd->bindValue(1, $student->getPrenom());
             $cmd->bindValue(2, $student->getAge());
             $cmd->bindValue(3, $student->getEcoleID());

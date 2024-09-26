@@ -28,7 +28,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
             <li class="activeMenu tab"><a class="nav-link" aria-current="page" href="../views/ajout.php">Nouveau talent</a></li>
+
           </ul>
           <button type="button" class="btn " id="idBtnS"><a class="idBtn" href="./identifier.html">
               S'identifier</a></button>

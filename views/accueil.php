@@ -1,6 +1,7 @@
 <?php ob_start(); ?>
 <section class="talent">
 
+
   <img class="photo_profil" src="../Images/BDE.png" />
   <div class="description">
 
